@@ -1,0 +1,4 @@
+- Thay ảnh trong folder Asset
+- Nhập số lượng ticket và bấm button gen
+- Số lượng ticket cần là bội số của 6
+- Mỗi lần gen nên gen khoảng 18-30 ticket tùy theo độ phân giải của ảnh. Ảnh càng nặng càng dễ crash out memory.
