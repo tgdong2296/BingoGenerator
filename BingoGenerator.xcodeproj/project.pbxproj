@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F38CD1CF25938F6D00342B1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38CD1CE25938F6D00342B1A /* AppDelegate.swift */; };
+		F38CD1D125938F6D00342B1A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38CD1D025938F6D00342B1A /* SceneDelegate.swift */; };
+		F38CD1D325938F6D00342B1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38CD1D225938F6D00342B1A /* ViewController.swift */; };
+		F38CD1D625938F6D00342B1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F38CD1D425938F6D00342B1A /* Main.storyboard */; };
+		F38CD1D825938F6F00342B1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F38CD1D725938F6F00342B1A /* Assets.xcassets */; };
+		F38CD1DB25938F6F00342B1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F38CD1D925938F6F00342B1A /* LaunchScreen.storyboard */; };
+		F38CD2172593A03F00342B1A /* LondrinaSolid-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F38CD2132593A03F00342B1A /* LondrinaSolid-Thin.ttf */; };
+		F38CD2182593A03F00342B1A /* LondrinaSolid-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F38CD2142593A03F00342B1A /* LondrinaSolid-Black.ttf */; };
+		F38CD2192593A03F00342B1A /* LondrinaSolid-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F38CD2152593A03F00342B1A /* LondrinaSolid-Light.ttf */; };
+		F38CD21A2593A03F00342B1A /* LondrinaSolid-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F38CD2162593A03F00342B1A /* LondrinaSolid-Regular.ttf */; };
+		F38CD21D2593A20900342B1A /* NumberGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38CD21C2593A20900342B1A /* NumberGenerator.swift */; };
+		F38CD2202593A79F00342B1A /* ImageGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38CD21F2593A79F00342B1A /* ImageGenerator.swift */; };
+		F38CD2252593ABD200342B1A /* FileGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38CD2242593ABD200342B1A /* FileGenerator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F38CD1CB25938F6D00342B1A /* BingoGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BingoGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F38CD1CE25938F6D00342B1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F38CD1D025938F6D00342B1A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F38CD1D225938F6D00342B1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F38CD1D525938F6D00342B1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F38CD1D725938F6F00342B1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F38CD1DA25938F6F00342B1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F38CD1DC25938F6F00342B1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F38CD2132593A03F00342B1A /* LondrinaSolid-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LondrinaSolid-Thin.ttf"; sourceTree = "<group>"; };
+		F38CD2142593A03F00342B1A /* LondrinaSolid-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LondrinaSolid-Black.ttf"; sourceTree = "<group>"; };
+		F38CD2152593A03F00342B1A /* LondrinaSolid-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LondrinaSolid-Light.ttf"; sourceTree = "<group>"; };
+		F38CD2162593A03F00342B1A /* LondrinaSolid-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LondrinaSolid-Regular.ttf"; sourceTree = "<group>"; };
+		F38CD21C2593A20900342B1A /* NumberGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberGenerator.swift; sourceTree = "<group>"; };
+		F38CD21F2593A79F00342B1A /* ImageGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGenerator.swift; sourceTree = "<group>"; };
+		F38CD2242593ABD200342B1A /* FileGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileGenerator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F38CD1C825938F6D00342B1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F38CD1C225938F6D00342B1A = {
+			isa = PBXGroup;
+			children = (
+				F38CD1CD25938F6D00342B1A /* BingoGenerator */,
+				F38CD1CC25938F6D00342B1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F38CD1CC25938F6D00342B1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F38CD1CB25938F6D00342B1A /* BingoGenerator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F38CD1CD25938F6D00342B1A /* BingoGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				F38CD21C2593A20900342B1A /* NumberGenerator.swift */,
+				F38CD21F2593A79F00342B1A /* ImageGenerator.swift */,
+				F38CD2242593ABD200342B1A /* FileGenerator.swift */,
+				F38CD1D225938F6D00342B1A /* ViewController.swift */,
+				F38CD2122593A02D00342B1A /* Font */,
+				F38CD1CE25938F6D00342B1A /* AppDelegate.swift */,
+				F38CD1D025938F6D00342B1A /* SceneDelegate.swift */,
+				F38CD1D425938F6D00342B1A /* Main.storyboard */,
+				F38CD1D725938F6F00342B1A /* Assets.xcassets */,
+				F38CD1D925938F6F00342B1A /* LaunchScreen.storyboard */,
+				F38CD1DC25938F6F00342B1A /* Info.plist */,
+			);
+			path = BingoGenerator;
+			sourceTree = "<group>";
+		};
+		F38CD2122593A02D00342B1A /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				F38CD2142593A03F00342B1A /* LondrinaSolid-Black.ttf */,
+				F38CD2152593A03F00342B1A /* LondrinaSolid-Light.ttf */,
+				F38CD2162593A03F00342B1A /* LondrinaSolid-Regular.ttf */,
+				F38CD2132593A03F00342B1A /* LondrinaSolid-Thin.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F38CD1CA25938F6D00342B1A /* BingoGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F38CD1DF25938F6F00342B1A /* Build configuration list for PBXNativeTarget "BingoGenerator" */;
+			buildPhases = (
+				F38CD1C725938F6D00342B1A /* Sources */,
+				F38CD1C825938F6D00342B1A /* Frameworks */,
+				F38CD1C925938F6D00342B1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BingoGenerator;
+			productName = BingoGenerator;
+			productReference = F38CD1CB25938F6D00342B1A /* BingoGenerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F38CD1C325938F6D00342B1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					F38CD1CA25938F6D00342B1A = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = F38CD1C625938F6D00342B1A /* Build configuration list for PBXProject "BingoGenerator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F38CD1C225938F6D00342B1A;
+			productRefGroup = F38CD1CC25938F6D00342B1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F38CD1CA25938F6D00342B1A /* BingoGenerator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F38CD1C925938F6D00342B1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F38CD2192593A03F00342B1A /* LondrinaSolid-Light.ttf in Resources */,
+				F38CD2182593A03F00342B1A /* LondrinaSolid-Black.ttf in Resources */,
+				F38CD2172593A03F00342B1A /* LondrinaSolid-Thin.ttf in Resources */,
+				F38CD1DB25938F6F00342B1A /* LaunchScreen.storyboard in Resources */,
+				F38CD1D825938F6F00342B1A /* Assets.xcassets in Resources */,
+				F38CD21A2593A03F00342B1A /* LondrinaSolid-Regular.ttf in Resources */,
+				F38CD1D625938F6D00342B1A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F38CD1C725938F6D00342B1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F38CD21D2593A20900342B1A /* NumberGenerator.swift in Sources */,
+				F38CD2202593A79F00342B1A /* ImageGenerator.swift in Sources */,
+				F38CD1D325938F6D00342B1A /* ViewController.swift in Sources */,
+				F38CD1CF25938F6D00342B1A /* AppDelegate.swift in Sources */,
+				F38CD1D125938F6D00342B1A /* SceneDelegate.swift in Sources */,
+				F38CD2252593ABD200342B1A /* FileGenerator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F38CD1D425938F6D00342B1A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F38CD1D525938F6D00342B1A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F38CD1D925938F6F00342B1A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F38CD1DA25938F6F00342B1A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F38CD1DD25938F6F00342B1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F38CD1DE25938F6F00342B1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F38CD1E025938F6F00342B1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BingoGenerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.BingoGenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F38CD1E125938F6F00342B1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BingoGenerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.BingoGenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F38CD1C625938F6D00342B1A /* Build configuration list for PBXProject "BingoGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F38CD1DD25938F6F00342B1A /* Debug */,
+				F38CD1DE25938F6F00342B1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F38CD1DF25938F6F00342B1A /* Build configuration list for PBXNativeTarget "BingoGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F38CD1E025938F6F00342B1A /* Debug */,
+				F38CD1E125938F6F00342B1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F38CD1C325938F6D00342B1A /* Project object */;
+}
